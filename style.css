@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-main{
+  color: #083A55 !important;
+}
+.navy-blue{
+  background-color: #083A55 !important;
+}
+
+
+/* navigation */
+.nav-item{
+	color: red !important;
+}
+.nav-link:hover {
+  color: #CC0039;
+  font-weight: 700 !important;
+  border-bottom: #CC0039 solid 1px;
+}
+
+.navbar {
+	background-color:#ffffff!important;
+}
+
+.active {
+	color: #CC0039  !important;
+	font-weight: 700 !important;
+	border-bottom: #CC0039 solid 1px;
+}
+
+.nav-link {
+	color: black;
+
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    padding: 0 !important;
+}
+.btn{
+    background-color: #FF576B !important;
+    border-radius: 4px !important;
+}
+.arrow-up{
+  /* background-color: #f8dde0;
+  border: 1px solid #f7b6be; */
+  color: #FF576B !important;
+}
+
+.image-container {
+    position: absolute;
+    /* top: 0;
+    bottom: 0; */
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+  
+.carousel-inner{
+  height: 100vh !important;
+}
+.carousel-caption{
+  margin-bottom: 18rem !important;
+}
+.img-fluid {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+.child{
+     border-right: 10px solid #010163;
+     border-bottom: 10px solid #010163;
+     border-radius: 7px; 
+     box-sizing: border-box;
+} 
+.fs-xlarge{
+    font-size: 57px;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+  .fs-sm{
+    font-size: 15px !important;
+    margin-top: 8px !important;
+}
+  .fs-bold{
+    font-weight: bold;
+}
+.fs-xsm{
+  font-size: 14px !important;
+}
+  .bg-purple{
+    background-color: #9E13C0;
+    border-radius: 100% !important;
+    height: 80px;
+    width: 80px;
+    color: #ffffff;
+    margin: auto !important;
+}
+  .bg-navy-blue{
+    background-color: #083A55;
+    border-radius: 100% !important;
+    height: 80px;
+    width: 80px;
+    color: #ffffff;
+    margin: auto !important;
+}
+  .bg-dark-orange{
+    background-color: #B76800;
+    border-radius: 100% !important;
+    height: 80px;
+    width: 80px;
+    color: #ffffff;
+    margin: auto !important;
+}
+  .bg-green{
+    background-color: #417505;
+    border-radius: 100% !important;
+    height: 80px;
+    width: 80px;
+    color: #ffffff;
+    margin: auto !important;
+}
+  .bg-blue{
+    background-color: #003183;
+    border-radius: 100% !important;
+    height: 80px;
+    width: 80px;
+    color: #ffffff;
+    margin: auto !important;
+}
+h3{
+    padding-top: 20px !important;
+    font-size: 26px !important;
+}
+.program-1:hover{
+    background-color: #9E13C0;
+    color: #ffffff;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.24);
+    border: none !important;
+}
+.program-2:hover{
+    background-color: #f37e3b;
+    color: #ffffff;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.24);
+    border: none !important;
+}
+.program-3:hover{
+    background-color: #dd0441;
+    color: #ffffff;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.24);
+    border: none !important;
+}
+.arrow-right{
+  border: none;
+  text-align: start;
+  background: none;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.logo:not(:hover) img {
+    filter: grayscale(100%);
+}
+.slick-slide{
+  margin: 0 20px;
+}
+.slick-slide img{
+  width: 100%;
+}
+.slick-slider{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+.slick-list{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-track{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block
+  
+}
+.slick-slide{
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.slick-slide img{
+  display: block;
+}
+.slick-initialized .slick-slide{
+  display: block;
+}
+.placeholder-1{
+  height: 27rem;
+  width: auto;
+}
+
+
+.play-btn{
+  background-color: #ffffff;
+  border-radius: 100% !important;
+  height: 55px;
+  width: 55px;
+  margin: auto !important;
+}
+.play-btn:hover{
+  background-color: #ddd4d4;
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.24);
+    border: none !important;
+}
+.avatar{
+  position: absolute;
+right: 8em !important;
+margin-bottom: 23rem !important;
+ bottom: 0px;
+ width: 100px;
+ height: auto;
+}
+
+footer{
+  background-color: #083A55;
+}
+footer a{
+  color: white;
+}
+footer .a1{
+  text-decoration: underline !important;
+}
+footer a:hover{
+  text-decoration: white underline !important;
+}
+
+
+
+
